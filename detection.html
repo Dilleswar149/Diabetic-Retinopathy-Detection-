@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Detection</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <div class="logo">
+           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/detection">Detection</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<section class="how-we-work" style="background-color: #f9f9f9; padding: 50px 0;">
+    <div class="container">
+        <h2 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #333; margin-bottom: 20px;">How We Trained Our Model</h2>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 1.5; color: #666; margin-bottom: 30px;">Retinal images of diabetic retinopathy patients were collected from public repositories for training and testing the machine learning algorithms. The dataset comprised images categorized into five classes representing different severity levels of diabetic retinopathy. The VGG16 convolutional neural network (CNN) architecture was utilized as the backbone for training. Initially pre-trained on the extensive ImageNet dataset, the VGG16 model was fine-tuned on the retinal image dataset to accurately detect diabetic retinopathy.</p>
+</section>
+<section class="how-we-work" style="background-color: #f9f9f9; padding: 50px 0;">
+    <div class="container">
+        <h2 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #333; margin-bottom: 20px;">How We Make Predictions</h2>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 1.5; color: #666;">To make predictions, the input retinal image undergoes preprocessing steps including segmentation, transformation to grayscale, and feature extraction. These preprocessing steps enable the extraction of features related to blood vessels in the retinal part of the eye. The preprocessed image is then passed through the trained VGG16 model, which has been fine-tuned for diabetic retinopathy detection. The output of the model provides classification probabilities across different severity levels of diabetic retinopathy, aiding in the determination of the severity level of the condition.</p>
+    </div>
+</section>
+
+
+</body>
+</html>

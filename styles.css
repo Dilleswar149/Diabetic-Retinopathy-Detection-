@@ -1,0 +1,119 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Change font to Montserrat */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Change header background color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced apart */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    flex: 1; /* Ensure logo takes up remaining space */
+}
+
+.logo img {
+    width: 150px; /* Adjust size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Ensure navigation links are displayed in a row */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-weight: bold;
+}
+
+/* How We Work section styles */
+.how-we-work {
+    text-align: center;
+}
+
+.how-we-work h2 {
+    font-size: 28px; /* Increase heading font size */
+    margin-bottom: 30px; /* Increase bottom margin for spacing */
+    color: #007bff; /* Change heading color */
+}
+
+.how-we-work p {
+    font-size: 18px;
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Change paragraph text color */
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Change header background color */
+    padding: 20px 0;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to opposite ends */
+    align-items: center; /* Align items vertically */
+}
+
+.logo img {
+    width: 150px; /* Adjust size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+}
+
+nav ul li {
+    margin-left: 20px; /* Add space between items */
+}
+
+nav ul li:first-child {
+    margin-left: auto; /* Push the first item (logo) to the extreme left */
+}
+
+nav ul li:last-child {
+    margin-left: auto; /* Push the last item (links) to the extreme right */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-weight: bold;
+}
